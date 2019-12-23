@@ -27,12 +27,9 @@ func main() {
 		log.Println(err)
 		return
 	}
-	//message := []byte("Hello, Gophers!")
 	err1 := ioutil.WriteFile("Task4Data.txt", b, 0644)
 	if err1 != nil {
 		log.Fatal(err1)
 	}
-	//fmt.Println(b)
-
 	fmt.Println(string(b))
 }
