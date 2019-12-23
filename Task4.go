@@ -46,8 +46,7 @@ func unconv(ch int) string{
 func main() {
 	var str string
 	fmt.Println("Введите координаты коня: ")
-	fmt.Scanln(&str)
-	
+	fmt.Scanln(&str)	
 	var numbers []string
 	numbers=strings.Split(str, "")
 	//fmt.Print(numbers)
