@@ -11,7 +11,7 @@ func main() {
 	ocheredi.Push("это текст 3")
 	fmt.Println(ocheredi.UnPush())
 	ocheredi.Push("бонус текст")
-	fmt.Println(ocheredi.UnPush())
-	fmt.Println(ocheredi.UnPush())
-	fmt.Println(ocheredi.UnPush())
+	fmt.Println(ocheredi.Pop())
+	fmt.Println(ocheredi.Pop())
+	fmt.Println(ocheredi.Pop())
 }
