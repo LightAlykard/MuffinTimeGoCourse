@@ -10,8 +10,8 @@ import (
 
 func main() {
 
-	InF := flag.String("InF", "input.txt", "copy that")
-	OutF := flag.String("OutF", "fuck", "new copy")
+	InF := flag.String("InF", "input.txt", "file")
+	OutF := flag.String("OutF", "fuck", "quete")
 	flag.Parse()
 
 	r, err := os.Open(*InF)
