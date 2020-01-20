@@ -12,7 +12,7 @@ type testValue struct {
 }
 
 // тестовые значения
-var testValues = []testValue{ // x1 is for minus calc in formula first, x2 is for plus in second time
+var testValues = []testValue{ 
 	{1, 0, 0, 0, 0, 0},
 	{1, 0, 1, -4, 0, 0},
 	{1, 1, 0, 1, -1, 0},
